@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+    <!-- llamada a la hoja de estilo-->
+    <link rel="stylesheet" href="cv-estilo.css">
+
+    <title>Curriculum Vitae</title>
+</head>
+<body>
+    <!-- llamada al script -->
+    <script src="cv-script.js"></script>
+
+    <!-- Armado de la cabecera-->
+    <div class="pie">
+        <h5>Proyecto 1 - Argentina Programa 4 - Primeros Pasos del Desarrollo FrontEnd</h5>  
+    </div>
+
+    <!-- armado del menu -->
+    <div class="menu">
+        <ul>
+            <li class="boton" onclick="atrapado(0)">Presentación
+            <li class="boton" onclick="atrapado(1)">Estudios
+            <li class="boton" onclick="atrapado(2)">Cursos
+            <li class="boton" onclick="atrapado(3)">Intereses
+            <li class="boton" onclick="atrapado(4)">Actividades
+          </ul>       
+    </div>
+    <!-- Armado de la zona central del documento-->
+    <div class="cuerpo">
+        <!-- bloque presentacion -->
+        <div id="presentacion" style="display:block;">   
+            <h1>CURRICULUM VITAE</h1>
+                <p style="text-align: center;">
+                    <video  controls>
+                    <source src="presentacion.mp4" type="video/mp4">
+                    Su browser no puede visualizar este video
+                    </video>
+                </p>
+            <h1>Marcelo dos Santos</h1>
+            <h2>Interprete de Lengua de Señas Argentina</h2>
+        </div>
+        <!-- bloque estudios-->
+        <div id="estudios" style="display:none;">   
+            <h1>Estudios</h1>
+            <ul>
+                <li><p>Carrera Tecnicatura en Interpretación en Lengua de Señas Argentina-Español</p> 
+                    <p>- Universidad Nacional de Villa María</p></li>
+                <li><p>Diseñador Gráfico - Aguas de la Cañada - Córdoba<p></p></li>
+            </ul>
+        </div>
+        <!-- bloque cursos-->
+        <div id="cursos" style="display:none;">   
+            <h1>Cursos</h1>
+            <ul>
+                <li><p>Lengua de Señas Nivel I, II y III</p></li>
+                <li><p>Argentina Programa 4 - Primeros Pasos del Desarrollo FrontEnd</p></li>
+            </ul>
+        </div>
+        <!-- bloque intereses-->
+        <div id="intereses" style="display:none;"> 
+            <h1>Intereses</h1>
+            <ul> 
+                <li><p>Trabajo Social y Concientización en diferentes tipos de Discapacidad</p></li>
+                <li><p>Inclusión de los diferentes tipos de Discapacidad en los Ámbitos Sociales</p></li>
+            </ul> 
+        </div>
+        <!-- bloque actividades-->
+        <div id="actividades" style="display:none;">
+            <ul>   
+                <h1>Actividades</h1>
+                <li><p>Trabajo en Centros Comunitarios con personas con diferentes tipos de discapacidad</p></li>
+                <li><p>Apoyo en Comedores Infantiles</p></li>
+            </ul>
+        </div>
+    </div>
+    <!-- Armado del pie de pagina-->
+    <div class="pie">
+        <h3>Si te interesan mis servicios, puedes hacerme una Videollamada al nro: 353-5644798</h3>  
+    </div>
+
+</body>
+</html>

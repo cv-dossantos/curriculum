@@ -1,0 +1,77 @@
+
+* {
+  box-sizing: border-box; /*https://developer.mozilla.org/es/docs/Learn/CSS/Building_blocks/The_box_model*/
+}
+
+/* preparacion estructura menu-cuerpo */
+.menu {
+  width: 30%;
+  float: left;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  background-color: khaki;
+}
+ul {
+    padding-inline-start: 0px /* evito la sangria */
+}
+.cuerpo {
+  width: 70%;
+  float: left;
+  background-color:khaki;
+}
+.pie {
+    width: 100%;
+    float: left;
+    background-color: burlywood;
+}
+
+/* configuracion botones */
+.boton {
+    width: 110px;
+    background-color: goldenrod;
+    border: 1px solid goldenrod;
+    border-radius: 40px;
+    color: #ffffff;
+    list-style-type: none;
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+    cursor: pointer; 
+}
+.boton:hover {
+   background-color: #ffffff;
+   color: goldenrod;
+}
+
+/* configuracion general */
+body {
+    background-color:khaki;
+  } 
+video { /* https://xitrus.es/blog/47/Responsive_Design:_adaptar_v%C3%ADdeos */
+  width:100%;
+  max-width:640px;
+}  
+p {
+    font-size: large;
+    color: darkblue;
+  }
+h1 {
+    font-weight: bold;
+    text-align: center;
+    color:darkblue; 
+    text-shadow: 2px 2px 5px gray;
+  }
+h2 {
+    text-align: center;
+    color: black; 
+    text-shadow: 2px 2px 5px gray;
+ }
+ h3 {
+    text-align: center;
+    color: black; 
+ } 
+ h5 {
+    text-align: center;
+    color:black; 
+ }
